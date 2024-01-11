@@ -23,7 +23,7 @@ const Sidebar = () => {
           {navigationMenu.map((item, index) => (
             <div
               key={index}
-              className="flex gap-x-4 cursor-pointer items-center justify-start py-4 my-2"
+              className="flex space-x-5 cursor-pointer items-center justify-start py-4 my-2"
             >
               {React.createElement(item.icon)}{" "}
               {/* Render the icon component dynamically */}

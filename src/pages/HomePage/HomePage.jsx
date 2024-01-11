@@ -23,10 +23,10 @@ const HomePage = () => {
         </Grid>
         {/* main */}
         <Grid
-          lg={location.pathname === "/" ? 6 : 9}
+          lg={location.pathname === "/" ? 7 : 9}
           item
           className="px-5 justify-center"
-          xs={12}
+          xs={9}
         >
           <Routes>
             <Route path="/" element={<MiddlePart />} />
